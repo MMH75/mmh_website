@@ -190,34 +190,71 @@ body {
     color: black;
 }
 
+.full {
+    width: 100%;
+}
+
 @media (max-width: 700px) {
 	.first {
         flex-direction: column;
         height: 700px;
         gap: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .who {
-        font-size: 75px;
+        font-size: 20px;
+        width: 70%;
     }
+    #website {
+        font-size: 25px;
+        width: 100%;
+    }
+    
     .p {
+        font-size: 10px;
+        width: 60% ;
         margin-left: 0px;
     }
     .intro {
-        width: 400px;
+        width: 50%;
         padding-top: 40px;
         padding-bottom: 40px;
         border-radius: 70px;
         margin-top: 50px;
     }
     .sub-about {
-        width: 100%;
+        width: 70%;
+        height: 200px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 0px;
+    }
+    .about-h1 {
+        font-size: 20px;
     }
     .about-p {
         display: inline-block;
+        font-size: 10px;
+        width: 70%;
+    }
+    #projects-h1 {
+        font-size: 35px;
+    }
+    .project-h2 {
+        font-size: 20px;
+    }
+    .project-p {
+        font-size: 15px;
+    }
+    .project-img {
+        height: 150px;
+        width: 150px;
+    }
+    .project {
+        width: 70%;
     }
     .projects-flex {
         flex-direction: column;
@@ -231,6 +268,19 @@ body {
     .contact-h1, .contact-h2, .contact-h3, .contact-p {
         margin-left: 0px;
         text-align: center;
+    }
+    .contact-h1 {
+        font-size: 30px;
+    }
+    .contact-h2 {
+        font-size: 20px;
+    }
+    .contact-h3 {
+        font-size: 15px;
+        width: 50%;
+    }
+    .contact-p {
+        font-size: 10px;
     }
 }
 
